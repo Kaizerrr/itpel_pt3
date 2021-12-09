@@ -17,7 +17,7 @@ export class ApiService {
   }
 
   addStudent(data){
-    return this.http.post('http://localhost/ionic/backend/create.php', data);
+    return this.http.post('http://localhost/pt3_itpel/backend/create.php', data);
 
   }
 }
